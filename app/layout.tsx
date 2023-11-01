@@ -3,7 +3,7 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
-import Portfolio from '@/components/portfolio'
+
 
 config.autoAddCss = false
 
@@ -23,7 +23,7 @@ export default function RootLayout({
     <html lang="en">
   
       <body className={inter.className}>
-        <Portfolio/>{children}</body>
+       {children}</body>
     </html>
   )
 }
